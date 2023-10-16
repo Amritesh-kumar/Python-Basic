@@ -1,0 +1,5 @@
+l = ["a","b","c","d","a","c"]
+
+lengthofl =l.count("a")
+#lengthofl =l.count("f")
+print(lengthofl)
