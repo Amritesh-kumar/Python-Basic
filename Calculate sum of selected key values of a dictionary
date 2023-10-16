@@ -1,0 +1,3 @@
+d = {"one":20, "two":10, "three":5}
+
+print(d["one"]+ d["three"])
