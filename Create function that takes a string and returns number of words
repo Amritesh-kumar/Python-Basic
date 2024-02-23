@@ -1,0 +1,5 @@
+def count_words(st):
+    s_l = st.split(' ')
+    return len(s_l)
+
+print(count_words('Raptor analytics for python'))
