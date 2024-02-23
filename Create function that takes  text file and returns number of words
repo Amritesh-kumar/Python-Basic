@@ -1,0 +1,7 @@
+def count_words(filepath):
+    with open(filepath, 'r') as f:
+        str = f.read()
+        str_l = str.split(' ')
+        return len(str_l)
+    
+print(count_words('C:\\Users\\kumar\\Downloads\\word_count.txt'))
